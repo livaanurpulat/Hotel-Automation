@@ -1,0 +1,13 @@
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\bin\Debug\Otel Kayıt Otomasyonu.exe.config
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\bin\Debug\Otel Kayıt Otomasyonu.exe
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\bin\Debug\Otel Kayıt Otomasyonu.pdb
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel Kayıt Otomasyonu.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.Properties.Resources.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel Kayıt Otomasyonu.csproj.GenerateResource.cache
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel Kayıt Otomasyonu.exe
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel Kayıt Otomasyonu.pdb
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmYeniMusteri.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmAdminGiris.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmAnaForm.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmOdalar.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmMusteriler.resources
