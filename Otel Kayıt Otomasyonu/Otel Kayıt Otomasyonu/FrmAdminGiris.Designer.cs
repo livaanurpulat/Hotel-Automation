@@ -68,10 +68,12 @@
             // 
             this.TxtKullaniciAdi.BackColor = System.Drawing.Color.White;
             this.TxtKullaniciAdi.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtKullaniciAdi.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKullaniciAdi.Location = new System.Drawing.Point(160, 342);
             this.TxtKullaniciAdi.Name = "TxtKullaniciAdi";
-            this.TxtKullaniciAdi.Size = new System.Drawing.Size(102, 13);
+            this.TxtKullaniciAdi.Size = new System.Drawing.Size(102, 16);
             this.TxtKullaniciAdi.TabIndex = 2;
+            this.TxtKullaniciAdi.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // label3
             // 
@@ -127,10 +129,12 @@
             // 
             this.TxtSifre.BackColor = System.Drawing.Color.White;
             this.TxtSifre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.TxtSifre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtSifre.Location = new System.Drawing.Point(160, 393);
             this.TxtSifre.Name = "TxtSifre";
-            this.TxtSifre.Size = new System.Drawing.Size(102, 13);
+            this.TxtSifre.Size = new System.Drawing.Size(102, 16);
             this.TxtSifre.TabIndex = 9;
+            this.TxtSifre.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.TxtSifre.UseSystemPasswordChar = true;
             // 
             // FrmAdminGiris

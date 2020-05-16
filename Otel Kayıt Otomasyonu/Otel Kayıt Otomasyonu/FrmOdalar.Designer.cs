@@ -165,6 +165,7 @@
             this.Controls.Add(this.BtnOda101);
             this.Name = "FrmOdalar";
             this.Text = "Odalar";
+            this.Load += new System.EventHandler(this.FrmOdalar_Load);
             this.ResumeLayout(false);
 
         }

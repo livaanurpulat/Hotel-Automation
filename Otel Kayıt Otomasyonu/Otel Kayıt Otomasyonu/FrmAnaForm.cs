@@ -37,5 +37,11 @@ namespace Otel_Kayıt_Otomasyonu
             FrmMusteriler fr = new FrmMusteriler();
             fr.Show();
         }
+
+        private void BtnOdalar_Click(object sender, EventArgs e)
+        {
+            FrmOdalar fr = new FrmOdalar();
+            fr.Show();
+        }
     }
 }

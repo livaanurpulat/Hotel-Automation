@@ -109,6 +109,36 @@ namespace Otel_Kayıt_Otomasyonu
             verilerigoster();
 
         }
+
+        private void BtnAra_Click(object sender, EventArgs e)
+        {
+            listView1.Items.Clear();
+            baglanti.Open();
+            //Kayıtlı müşteriler içinde Ad'a göre arama kodu:
+            SqlCommand komut = new SqlCommand("select * from MusteriKayit where Ad like '%" +textBox1.Text+"%'" , baglanti);
+            SqlDataReader oku = komut.ExecuteReader();
+
+            //oku komutu çalıştığı müddetçe listviewe verileri ekle.
+            while (oku.Read())
+            {
+                ListViewItem ekle = new ListViewItem();
+                ekle.Text = oku["MusteriId"].ToString();
+                ekle.SubItems.Add(oku["Ad"].ToString());
+                ekle.SubItems.Add(oku["Soyad"].ToString());
+                ekle.SubItems.Add(oku["Cinsiyet"].ToString());
+                ekle.SubItems.Add(oku["Telefon"].ToString());
+                ekle.SubItems.Add(oku["Mail"].ToString());
+                ekle.SubItems.Add(oku["TC"].ToString());
+                ekle.SubItems.Add(oku["OdaNo"].ToString());
+                ekle.SubItems.Add(oku["GirisTarihi"].ToString());
+                ekle.SubItems.Add(oku["CikisTarihi"].ToString());
+                ekle.SubItems.Add(oku["Ucret"].ToString());
+
+                listView1.Items.Add(ekle);
+
+            }
+            baglanti.Close();
+        }
     }
 }
 

@@ -32,6 +32,8 @@
             this.BtnYeniMusteri = new System.Windows.Forms.Button();
             this.BtnOdalar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.BtnPersonel = new System.Windows.Forms.Button();
+            this.BtnStok = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAdminGiris
@@ -69,19 +71,44 @@
             this.BtnOdalar.TabIndex = 2;
             this.BtnOdalar.Text = "Odalar";
             this.BtnOdalar.UseVisualStyleBackColor = false;
+            this.BtnOdalar.Click += new System.EventHandler(this.BtnOdalar_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(517, 65);
+            this.button1.Location = new System.Drawing.Point(374, 217);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(103, 97);
             this.button1.TabIndex = 3;
-            this.button1.Text = "Müşteriler";
+            this.button1.Text = "Müşteri Kayıtları";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // BtnPersonel
+            // 
+            this.BtnPersonel.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.BtnPersonel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnPersonel.ForeColor = System.Drawing.Color.Black;
+            this.BtnPersonel.Location = new System.Drawing.Point(77, 217);
+            this.BtnPersonel.Name = "BtnPersonel";
+            this.BtnPersonel.Size = new System.Drawing.Size(103, 97);
+            this.BtnPersonel.TabIndex = 4;
+            this.BtnPersonel.Text = "Personel Maaşları";
+            this.BtnPersonel.UseVisualStyleBackColor = false;
+            // 
+            // BtnStok
+            // 
+            this.BtnStok.BackColor = System.Drawing.Color.Khaki;
+            this.BtnStok.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnStok.ForeColor = System.Drawing.Color.Black;
+            this.BtnStok.Location = new System.Drawing.Point(227, 217);
+            this.BtnStok.Name = "BtnStok";
+            this.BtnStok.Size = new System.Drawing.Size(103, 97);
+            this.BtnStok.TabIndex = 5;
+            this.BtnStok.Text = "Stok";
+            this.BtnStok.UseVisualStyleBackColor = false;
             // 
             // FrmAnaForm
             // 
@@ -89,11 +116,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Otel_Kayıt_Otomasyonu.Properties.Resources.arkaplan;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(708, 500);
+            this.ClientSize = new System.Drawing.Size(555, 413);
+            this.Controls.Add(this.BtnStok);
+            this.Controls.Add(this.BtnPersonel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnOdalar);
             this.Controls.Add(this.BtnYeniMusteri);
             this.Controls.Add(this.BtnAdminGiris);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmAnaForm";
             this.Text = "Ana Sayfa";
             this.ResumeLayout(false);
@@ -106,5 +137,7 @@
         private System.Windows.Forms.Button BtnYeniMusteri;
         private System.Windows.Forms.Button BtnOdalar;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BtnPersonel;
+        private System.Windows.Forms.Button BtnStok;
     }
 }
