@@ -135,6 +135,7 @@
             this.BtnOda102.TabIndex = 10;
             this.BtnOda102.Text = "102";
             this.BtnOda102.UseVisualStyleBackColor = false;
+            this.BtnOda102.Click += new System.EventHandler(this.BtnOda102_Click);
             // 
             // BtnOda101
             // 

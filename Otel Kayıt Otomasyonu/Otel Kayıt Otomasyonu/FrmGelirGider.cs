@@ -1,4 +1,16 @@
-﻿using System;
+﻿/****************************************************************************
+**                         SAKARYA ÜNİVERSİTESİ
+**               BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+**                 BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+**                    NESNEYE DAYALI PROGRAMLAMA DERSİ
+**                        2019-2020 BAHAR DÖNEMİ
+**
+**                      PROJE NUMARASI.........: 01
+**                      ÖĞRENCİ ADI............: LİVA NUR PULAT
+**                      ÖĞRENCİ NUMARASI.......: B191200371
+**                      DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -46,7 +58,7 @@ namespace Otel_Kayıt_Otomasyonu
             }
             baglanti.Close();
 
-            //Gıda Giderleri
+            //Mutfak Harcama tablosundan Gida giderlerini toplatma işlemi
             baglanti.Open();
             SqlCommand komut1 = new SqlCommand("select sum(Gida) as toplam1 from MutfakHarcama", baglanti);
             SqlDataReader oku1 = komut1.ExecuteReader();
@@ -57,7 +69,7 @@ namespace Otel_Kayıt_Otomasyonu
             }
             baglanti.Close();
 
-            //İçecek Giderleri
+            //Mutfak Harcama tablosundan İcecek giderleri toplatma işlemi
             baglanti.Open();
             SqlCommand komut2 = new SqlCommand("select sum(İcecek) as toplam2 from MutfakHarcama", baglanti);
             SqlDataReader oku2 = komut2.ExecuteReader();
@@ -68,7 +80,7 @@ namespace Otel_Kayıt_Otomasyonu
             }
             baglanti.Close();
 
-            //Elektrik Giderleri
+            //Faturalar tablosundan Elektrik Giderlerini toplatma işlemi
             baglanti.Open();
             SqlCommand komut3 = new SqlCommand("select sum(Elektrik) as toplam3 from Faturalar", baglanti);
             SqlDataReader oku3 = komut3.ExecuteReader();

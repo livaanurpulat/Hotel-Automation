@@ -1,4 +1,16 @@
-﻿using System;
+﻿/****************************************************************************
+**                         SAKARYA ÜNİVERSİTESİ
+**               BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+**                 BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+**                    NESNEYE DAYALI PROGRAMLAMA DERSİ
+**                        2019-2020 BAHAR DÖNEMİ
+**
+**                      PROJE NUMARASI.........: 01
+**                      ÖĞRENCİ ADI............: LİVA NUR PULAT
+**                      ÖĞRENCİ NUMARASI.......: B191200371
+**                      DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +32,8 @@ namespace Otel_Kayıt_Otomasyonu
         }
 
         SqlConnection baglanti = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=TasKonakOteli;Integrated Security=True");
-        //MutfakHarcamaları içi erişim belirleyici
+        
+        //Mutfak Harcamaları içi erişim belirleyici
         private void veriler()
         {
             listView1.Items.Clear();
@@ -60,6 +73,7 @@ namespace Otel_Kayıt_Otomasyonu
             baglanti.Close();
         }
 
+        //Mutfak Harcamalarına yeni kayıt girildiğinde kaydetme.
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
             baglanti.Open();
@@ -83,6 +97,7 @@ namespace Otel_Kayıt_Otomasyonu
 
         }
 
+        //Faturalara yeni kayıt girildiğinde kaydetme.
         private void BtnKaydet2_Click(object sender, EventArgs e)
         {
             baglanti.Open();

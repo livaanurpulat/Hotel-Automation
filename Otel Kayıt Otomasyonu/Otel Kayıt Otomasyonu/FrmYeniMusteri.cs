@@ -1,4 +1,16 @@
-﻿using System;
+﻿/****************************************************************************
+**                         SAKARYA ÜNİVERSİTESİ
+**               BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+**                 BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+**                    NESNEYE DAYALI PROGRAMLAMA DERSİ
+**                        2019-2020 BAHAR DÖNEMİ
+**
+**                      PROJE NUMARASI.........: 01
+**                      ÖĞRENCİ ADI............: LİVA NUR PULAT
+**                      ÖĞRENCİ NUMARASI.......: B191200371
+**                      DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -123,7 +135,7 @@ namespace Otel_Kayıt_Otomasyonu
             DateTime KucukTarih = Convert.ToDateTime(DtpGirisTarihi.Text);
             DateTime BuyukTarih = Convert.ToDateTime(DtpCikisTarihi.Text);
 
-            //İki tarih arasındaki farkı alarak işlem yapılır.
+           
             TimeSpan Sonuc;
             Sonuc = BuyukTarih - KucukTarih;
 
@@ -143,7 +155,7 @@ namespace Otel_Kayıt_Otomasyonu
             MessageBox.Show("MÜŞTERİ KAYDI YAPILDI.");
         }
 
-        //odaların doluluğuna göre renklendirme,isimlendirme ve tıklannmayı ayralar:
+        //odaların doluluğuna göre renklendirme,isimlendirme ve tıklannmayı ayarlar:
         private void FrmYeniMusteri_Load(object sender, EventArgs e)
         {
             //Oda 101

@@ -1,4 +1,16 @@
-﻿using System;
+﻿/****************************************************************************
+**                         SAKARYA ÜNİVERSİTESİ
+**               BİLGİSAYAR VE BİLİŞİM BİLİMLERİ FAKÜLTESİ
+**                 BİLİŞİM SİSTEMLERİ MÜHENDİSLİĞİ BÖLÜMÜ
+**                    NESNEYE DAYALI PROGRAMLAMA DERSİ
+**                        2019-2020 BAHAR DÖNEMİ
+**
+**                      PROJE NUMARASI.........: 01
+**                      ÖĞRENCİ ADI............: LİVA NUR PULAT
+**                      ÖĞRENCİ NUMARASI.......: B191200371
+**                      DERSİN ALINDIĞI GRUP...: A
+****************************************************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -30,7 +42,7 @@ namespace Otel_Kayıt_Otomasyonu
             SqlCommand komut = new SqlCommand("select * from MusteriKayit", baglanti);
             SqlDataReader oku = komut.ExecuteReader();
 
-            //oku komutu çalıştığı müddetçe listviewe verileri ekle.
+            //oku komutu çalıştığı müddetçe listview'e verileri ekle.
             while (oku.Read())
             {
                 ListViewItem ekle = new ListViewItem();
@@ -176,6 +188,7 @@ namespace Otel_Kayıt_Otomasyonu
 
         }
 
+        //Müşteri bilgileri güncellenmek için.
         private void BtnGuncelle_Click(object sender, EventArgs e)
         {
             baglanti.Open();
@@ -186,6 +199,7 @@ namespace Otel_Kayıt_Otomasyonu
 
         }
 
+        //Kayıtlı müşterilerde arama yapma.
         private void BtnAra_Click(object sender, EventArgs e)
         {
             listView1.Items.Clear();
@@ -194,7 +208,7 @@ namespace Otel_Kayıt_Otomasyonu
             SqlCommand komut = new SqlCommand("select * from MusteriKayit where Ad like '%" +textBox1.Text+"%'" , baglanti);
             SqlDataReader oku = komut.ExecuteReader();
 
-            //oku komutu çalıştığı müddetçe listviewe verileri ekle.
+            //oku komutu çalıştığı müddetçe listview'e verileri ekle.
             while (oku.Read())
             {
                 ListViewItem ekle = new ListViewItem();
@@ -217,5 +231,5 @@ namespace Otel_Kayıt_Otomasyonu
         }
     }
 }
-//SqlCommand komut = new SqlCommand("delete from MusteriKayit where MusteriId=(" + id + ")", baglanti);
+
 
