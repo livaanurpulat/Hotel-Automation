@@ -43,5 +43,22 @@ namespace Otel_Kayıt_Otomasyonu
             FrmOdalar fr = new FrmOdalar();
             fr.Show();
         }
+
+        private void BtnCikis_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtnGlrGdr_Click(object sender, EventArgs e)
+        {
+            FrmGelirGider fr = new FrmGelirGider();
+            fr.Show();
+        }
+
+        private void BtnStok_Click(object sender, EventArgs e)
+        {
+            FrmAylikHarcama fr = new FrmAylikHarcama();
+            fr.Show();
+        }
     }
 }

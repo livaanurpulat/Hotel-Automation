@@ -121,16 +121,28 @@
   <data name="admin-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin-icon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pngfuel.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngfuel.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arkaplan2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkaplan2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arkaplan1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkaplan1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="admin icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="pngfuel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngfuel.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="admin icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\admin icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="pngfuel.com" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\pngfuel.com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="arkaplan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arkaplan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pngfuel2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pngfuel.com1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

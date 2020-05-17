@@ -363,7 +363,7 @@
             this.BtnBosOda.BackColor = System.Drawing.Color.White;
             this.BtnBosOda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnBosOda.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnBosOda.Location = new System.Drawing.Point(128, 364);
+            this.BtnBosOda.Location = new System.Drawing.Point(125, 353);
             this.BtnBosOda.Name = "BtnBosOda";
             this.BtnBosOda.Size = new System.Drawing.Size(69, 50);
             this.BtnBosOda.TabIndex = 10;
@@ -376,7 +376,7 @@
             this.BtnDoluOda.BackColor = System.Drawing.Color.RoyalBlue;
             this.BtnDoluOda.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnDoluOda.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnDoluOda.Location = new System.Drawing.Point(275, 364);
+            this.BtnDoluOda.Location = new System.Drawing.Point(259, 353);
             this.BtnDoluOda.Name = "BtnDoluOda";
             this.BtnDoluOda.Size = new System.Drawing.Size(69, 50);
             this.BtnDoluOda.TabIndex = 9;
@@ -389,7 +389,7 @@
             this.BtnOda303.BackColor = System.Drawing.Color.White;
             this.BtnOda303.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda303.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda303.Location = new System.Drawing.Point(325, 242);
+            this.BtnOda303.Location = new System.Drawing.Point(306, 243);
             this.BtnOda303.Name = "BtnOda303";
             this.BtnOda303.Size = new System.Drawing.Size(80, 75);
             this.BtnOda303.TabIndex = 8;
@@ -402,7 +402,7 @@
             this.BtnOda302.BackColor = System.Drawing.Color.White;
             this.BtnOda302.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda302.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda302.Location = new System.Drawing.Point(194, 242);
+            this.BtnOda302.Location = new System.Drawing.Point(181, 242);
             this.BtnOda302.Name = "BtnOda302";
             this.BtnOda302.Size = new System.Drawing.Size(80, 75);
             this.BtnOda302.TabIndex = 7;
@@ -428,7 +428,7 @@
             this.BtnOda203.BackColor = System.Drawing.Color.White;
             this.BtnOda203.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda203.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda203.Location = new System.Drawing.Point(325, 158);
+            this.BtnOda203.Location = new System.Drawing.Point(306, 159);
             this.BtnOda203.Name = "BtnOda203";
             this.BtnOda203.Size = new System.Drawing.Size(80, 75);
             this.BtnOda203.TabIndex = 5;
@@ -441,7 +441,7 @@
             this.BtnOda202.BackColor = System.Drawing.Color.White;
             this.BtnOda202.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda202.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda202.Location = new System.Drawing.Point(194, 158);
+            this.BtnOda202.Location = new System.Drawing.Point(181, 158);
             this.BtnOda202.Name = "BtnOda202";
             this.BtnOda202.Size = new System.Drawing.Size(80, 75);
             this.BtnOda202.TabIndex = 4;
@@ -467,7 +467,7 @@
             this.BtnOda103.BackColor = System.Drawing.Color.White;
             this.BtnOda103.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda103.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda103.Location = new System.Drawing.Point(325, 79);
+            this.BtnOda103.Location = new System.Drawing.Point(306, 77);
             this.BtnOda103.Name = "BtnOda103";
             this.BtnOda103.Size = new System.Drawing.Size(80, 75);
             this.BtnOda103.TabIndex = 2;
@@ -480,7 +480,7 @@
             this.BtnOda102.BackColor = System.Drawing.Color.White;
             this.BtnOda102.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda102.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda102.Location = new System.Drawing.Point(194, 80);
+            this.BtnOda102.Location = new System.Drawing.Point(181, 77);
             this.BtnOda102.Name = "BtnOda102";
             this.BtnOda102.Size = new System.Drawing.Size(80, 75);
             this.BtnOda102.TabIndex = 1;
@@ -493,7 +493,7 @@
             this.BtnOda101.BackColor = System.Drawing.Color.White;
             this.BtnOda101.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda101.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda101.Location = new System.Drawing.Point(56, 79);
+            this.BtnOda101.Location = new System.Drawing.Point(56, 76);
             this.BtnOda101.Name = "BtnOda101";
             this.BtnOda101.Size = new System.Drawing.Size(80, 75);
             this.BtnOda101.TabIndex = 0;

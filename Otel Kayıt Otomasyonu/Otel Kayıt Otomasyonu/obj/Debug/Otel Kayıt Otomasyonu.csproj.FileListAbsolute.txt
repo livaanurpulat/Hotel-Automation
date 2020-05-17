@@ -11,3 +11,5 @@ C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomas
 C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmAnaForm.resources
 C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmOdalar.resources
 C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmMusteriler.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmGelirGider.resources
+C:\Users\Asus\Desktop\b191200371_Proje\Otel Kayıt Otomasyonu\Otel Kayıt Otomasyonu\obj\Debug\Otel_Kayıt_Otomasyonu.FrmAylikHarcama.resources

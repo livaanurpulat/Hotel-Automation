@@ -21,51 +21,89 @@ namespace Otel_Kayıt_Otomasyonu
 
         SqlConnection baglanti = new SqlConnection("Data Source=.\\SQLEXPRESS;Initial Catalog=TasKonakOteli;Integrated Security=True");
 
-        //Oda numaralarına tıklandığında Oda No kısmına yazdırma işlemi:
+        
         private void BtnOda101_Click(object sender, EventArgs e)
         {
+            //Oda numaralarına tıklandığında Oda No kısmına yazdırma işlemi:
             TxtOdaNo.Text = "101";
+            //sql'de oluşturulan tabloya isim ve soyisim ekleme:
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda101 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda102_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "102";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda102 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda103_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "103";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda103 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
 
         }
 
         private void BtnOda201_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "201";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda201 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda202_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "202";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda202 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda203_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "203";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda203 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda301_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "301";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda301 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda302_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "302";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda302 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnOda303_Click(object sender, EventArgs e)
         {
             TxtOdaNo.Text = "303";
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into Oda303 (Ad,Soyad) values ('" + TxtAdi.Text + "','" + TxtSoyadi.Text + "')", baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
         }
 
         private void BtnBosOda_Click(object sender, EventArgs e)
@@ -91,8 +129,8 @@ namespace Otel_Kayıt_Otomasyonu
 
             label11.Text = Sonuc.TotalDays.ToString();
 
-            //Günlük 100 tl'den ücret hesaplanması yapılır:
-            Ucret = Convert.ToInt32(label11.Text) * 100;
+            //Gecelik 200 tl'den ücret hesaplanması yapılır:
+            Ucret = Convert.ToInt32(label11.Text) * 200;
             TxtUcret.Text = Ucret.ToString();
         }
 

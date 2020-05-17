@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOdalar));
             this.BtnOda303 = new System.Windows.Forms.Button();
             this.BtnOda302 = new System.Windows.Forms.Button();
             this.BtnOda301 = new System.Windows.Forms.Button();
@@ -44,9 +45,9 @@
             this.BtnOda303.BackColor = System.Drawing.Color.White;
             this.BtnOda303.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda303.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda303.Location = new System.Drawing.Point(331, 266);
+            this.BtnOda303.Location = new System.Drawing.Point(331, 257);
             this.BtnOda303.Name = "BtnOda303";
-            this.BtnOda303.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda303.Size = new System.Drawing.Size(91, 86);
             this.BtnOda303.TabIndex = 17;
             this.BtnOda303.Text = "303";
             this.BtnOda303.UseVisualStyleBackColor = false;
@@ -56,9 +57,9 @@
             this.BtnOda302.BackColor = System.Drawing.Color.White;
             this.BtnOda302.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda302.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda302.Location = new System.Drawing.Point(200, 266);
+            this.BtnOda302.Location = new System.Drawing.Point(191, 257);
             this.BtnOda302.Name = "BtnOda302";
-            this.BtnOda302.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda302.Size = new System.Drawing.Size(91, 86);
             this.BtnOda302.TabIndex = 16;
             this.BtnOda302.Text = "302";
             this.BtnOda302.UseVisualStyleBackColor = false;
@@ -68,9 +69,9 @@
             this.BtnOda301.BackColor = System.Drawing.Color.White;
             this.BtnOda301.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda301.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda301.Location = new System.Drawing.Point(62, 266);
+            this.BtnOda301.Location = new System.Drawing.Point(52, 257);
             this.BtnOda301.Name = "BtnOda301";
-            this.BtnOda301.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda301.Size = new System.Drawing.Size(91, 86);
             this.BtnOda301.TabIndex = 15;
             this.BtnOda301.Text = "301";
             this.BtnOda301.UseVisualStyleBackColor = false;
@@ -80,9 +81,9 @@
             this.BtnOda203.BackColor = System.Drawing.Color.White;
             this.BtnOda203.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda203.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda203.Location = new System.Drawing.Point(331, 163);
+            this.BtnOda203.Location = new System.Drawing.Point(331, 154);
             this.BtnOda203.Name = "BtnOda203";
-            this.BtnOda203.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda203.Size = new System.Drawing.Size(91, 86);
             this.BtnOda203.TabIndex = 14;
             this.BtnOda203.Text = "203";
             this.BtnOda203.UseVisualStyleBackColor = false;
@@ -92,9 +93,9 @@
             this.BtnOda202.BackColor = System.Drawing.Color.White;
             this.BtnOda202.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda202.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda202.Location = new System.Drawing.Point(200, 163);
+            this.BtnOda202.Location = new System.Drawing.Point(191, 154);
             this.BtnOda202.Name = "BtnOda202";
-            this.BtnOda202.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda202.Size = new System.Drawing.Size(91, 86);
             this.BtnOda202.TabIndex = 13;
             this.BtnOda202.Text = "202";
             this.BtnOda202.UseVisualStyleBackColor = false;
@@ -104,9 +105,9 @@
             this.BtnOda201.BackColor = System.Drawing.Color.White;
             this.BtnOda201.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda201.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda201.Location = new System.Drawing.Point(62, 163);
+            this.BtnOda201.Location = new System.Drawing.Point(52, 154);
             this.BtnOda201.Name = "BtnOda201";
-            this.BtnOda201.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda201.Size = new System.Drawing.Size(91, 86);
             this.BtnOda201.TabIndex = 12;
             this.BtnOda201.Text = "201";
             this.BtnOda201.UseVisualStyleBackColor = false;
@@ -116,9 +117,9 @@
             this.BtnOda103.BackColor = System.Drawing.Color.White;
             this.BtnOda103.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda103.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda103.Location = new System.Drawing.Point(331, 64);
+            this.BtnOda103.Location = new System.Drawing.Point(331, 55);
             this.BtnOda103.Name = "BtnOda103";
-            this.BtnOda103.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda103.Size = new System.Drawing.Size(91, 86);
             this.BtnOda103.TabIndex = 11;
             this.BtnOda103.Text = "103";
             this.BtnOda103.UseVisualStyleBackColor = false;
@@ -128,9 +129,9 @@
             this.BtnOda102.BackColor = System.Drawing.Color.White;
             this.BtnOda102.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda102.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda102.Location = new System.Drawing.Point(200, 65);
+            this.BtnOda102.Location = new System.Drawing.Point(191, 56);
             this.BtnOda102.Name = "BtnOda102";
-            this.BtnOda102.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda102.Size = new System.Drawing.Size(91, 86);
             this.BtnOda102.TabIndex = 10;
             this.BtnOda102.Text = "102";
             this.BtnOda102.UseVisualStyleBackColor = false;
@@ -140,9 +141,9 @@
             this.BtnOda101.BackColor = System.Drawing.Color.White;
             this.BtnOda101.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOda101.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.BtnOda101.Location = new System.Drawing.Point(62, 64);
+            this.BtnOda101.Location = new System.Drawing.Point(52, 55);
             this.BtnOda101.Name = "BtnOda101";
-            this.BtnOda101.Size = new System.Drawing.Size(81, 77);
+            this.BtnOda101.Size = new System.Drawing.Size(91, 86);
             this.BtnOda101.TabIndex = 9;
             this.BtnOda101.Text = "101";
             this.BtnOda101.UseVisualStyleBackColor = false;
@@ -151,6 +152,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Otel_Kayıt_Otomasyonu.Properties.Resources.arkaplan;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(475, 406);
@@ -163,6 +165,9 @@
             this.Controls.Add(this.BtnOda103);
             this.Controls.Add(this.BtnOda102);
             this.Controls.Add(this.BtnOda101);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmOdalar";
             this.Text = "Odalar";
             this.Load += new System.EventHandler(this.FrmOdalar_Load);

@@ -28,21 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAnaForm));
             this.BtnAdminGiris = new System.Windows.Forms.Button();
             this.BtnYeniMusteri = new System.Windows.Forms.Button();
             this.BtnOdalar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.BtnPersonel = new System.Windows.Forms.Button();
+            this.BtnGlrGdr = new System.Windows.Forms.Button();
             this.BtnStok = new System.Windows.Forms.Button();
+            this.BtnCikis = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BtnAdminGiris
             // 
             this.BtnAdminGiris.BackColor = System.Drawing.Color.MediumPurple;
             this.BtnAdminGiris.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnAdminGiris.Location = new System.Drawing.Point(77, 65);
+            this.BtnAdminGiris.Location = new System.Drawing.Point(41, 36);
             this.BtnAdminGiris.Name = "BtnAdminGiris";
-            this.BtnAdminGiris.Size = new System.Drawing.Size(103, 97);
+            this.BtnAdminGiris.Size = new System.Drawing.Size(93, 85);
             this.BtnAdminGiris.TabIndex = 0;
             this.BtnAdminGiris.Text = "Admin Giriş";
             this.BtnAdminGiris.UseVisualStyleBackColor = false;
@@ -52,9 +54,9 @@
             // 
             this.BtnYeniMusteri.BackColor = System.Drawing.Color.HotPink;
             this.BtnYeniMusteri.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnYeniMusteri.Location = new System.Drawing.Point(227, 65);
+            this.BtnYeniMusteri.Location = new System.Drawing.Point(192, 36);
             this.BtnYeniMusteri.Name = "BtnYeniMusteri";
-            this.BtnYeniMusteri.Size = new System.Drawing.Size(103, 97);
+            this.BtnYeniMusteri.Size = new System.Drawing.Size(93, 85);
             this.BtnYeniMusteri.TabIndex = 1;
             this.BtnYeniMusteri.Text = "Yeni Müşteri";
             this.BtnYeniMusteri.UseVisualStyleBackColor = false;
@@ -65,9 +67,9 @@
             this.BtnOdalar.BackColor = System.Drawing.Color.Coral;
             this.BtnOdalar.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnOdalar.ForeColor = System.Drawing.Color.Black;
-            this.BtnOdalar.Location = new System.Drawing.Point(374, 65);
+            this.BtnOdalar.Location = new System.Drawing.Point(338, 36);
             this.BtnOdalar.Name = "BtnOdalar";
-            this.BtnOdalar.Size = new System.Drawing.Size(103, 97);
+            this.BtnOdalar.Size = new System.Drawing.Size(93, 85);
             this.BtnOdalar.TabIndex = 2;
             this.BtnOdalar.Text = "Odalar";
             this.BtnOdalar.UseVisualStyleBackColor = false;
@@ -78,51 +80,68 @@
             this.button1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(374, 217);
+            this.button1.Location = new System.Drawing.Point(339, 148);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 97);
+            this.button1.Size = new System.Drawing.Size(93, 85);
             this.button1.TabIndex = 3;
             this.button1.Text = "Müşteri Kayıtları";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // BtnPersonel
+            // BtnGlrGdr
             // 
-            this.BtnPersonel.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.BtnPersonel.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BtnPersonel.ForeColor = System.Drawing.Color.Black;
-            this.BtnPersonel.Location = new System.Drawing.Point(77, 217);
-            this.BtnPersonel.Name = "BtnPersonel";
-            this.BtnPersonel.Size = new System.Drawing.Size(103, 97);
-            this.BtnPersonel.TabIndex = 4;
-            this.BtnPersonel.Text = "Personel Maaşları";
-            this.BtnPersonel.UseVisualStyleBackColor = false;
+            this.BtnGlrGdr.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.BtnGlrGdr.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnGlrGdr.ForeColor = System.Drawing.Color.Black;
+            this.BtnGlrGdr.Location = new System.Drawing.Point(42, 148);
+            this.BtnGlrGdr.Name = "BtnGlrGdr";
+            this.BtnGlrGdr.Size = new System.Drawing.Size(93, 85);
+            this.BtnGlrGdr.TabIndex = 4;
+            this.BtnGlrGdr.Text = "Gelir Gider Tablosu";
+            this.BtnGlrGdr.UseVisualStyleBackColor = false;
+            this.BtnGlrGdr.Click += new System.EventHandler(this.BtnGlrGdr_Click);
             // 
             // BtnStok
             // 
             this.BtnStok.BackColor = System.Drawing.Color.Khaki;
             this.BtnStok.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnStok.ForeColor = System.Drawing.Color.Black;
-            this.BtnStok.Location = new System.Drawing.Point(227, 217);
+            this.BtnStok.Location = new System.Drawing.Point(192, 148);
             this.BtnStok.Name = "BtnStok";
-            this.BtnStok.Size = new System.Drawing.Size(103, 97);
+            this.BtnStok.Size = new System.Drawing.Size(93, 85);
             this.BtnStok.TabIndex = 5;
-            this.BtnStok.Text = "Stok";
+            this.BtnStok.Text = "Aylık Harcamalar";
             this.BtnStok.UseVisualStyleBackColor = false;
+            this.BtnStok.Click += new System.EventHandler(this.BtnStok_Click);
+            // 
+            // BtnCikis
+            // 
+            this.BtnCikis.BackColor = System.Drawing.Color.DarkGray;
+            this.BtnCikis.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnCikis.Location = new System.Drawing.Point(192, 258);
+            this.BtnCikis.Name = "BtnCikis";
+            this.BtnCikis.Size = new System.Drawing.Size(93, 85);
+            this.BtnCikis.TabIndex = 6;
+            this.BtnCikis.Text = "Çıkış";
+            this.BtnCikis.UseVisualStyleBackColor = false;
+            this.BtnCikis.Click += new System.EventHandler(this.BtnCikis_Click);
             // 
             // FrmAnaForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Otel_Kayıt_Otomasyonu.Properties.Resources.arkaplan;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(555, 413);
+            this.ClientSize = new System.Drawing.Size(503, 389);
+            this.Controls.Add(this.BtnCikis);
             this.Controls.Add(this.BtnStok);
-            this.Controls.Add(this.BtnPersonel);
+            this.Controls.Add(this.BtnGlrGdr);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BtnOdalar);
             this.Controls.Add(this.BtnYeniMusteri);
             this.Controls.Add(this.BtnAdminGiris);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmAnaForm";
@@ -137,7 +156,8 @@
         private System.Windows.Forms.Button BtnYeniMusteri;
         private System.Windows.Forms.Button BtnOdalar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button BtnPersonel;
+        private System.Windows.Forms.Button BtnGlrGdr;
         private System.Windows.Forms.Button BtnStok;
+        private System.Windows.Forms.Button BtnCikis;
     }
 }

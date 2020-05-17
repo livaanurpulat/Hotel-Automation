@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMusteriler));
             this.listView1 = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -203,7 +204,7 @@
             this.CmBoxCinsiyet.Items.AddRange(new object[] {
             "Kadın",
             "Erkek"});
-            this.CmBoxCinsiyet.Location = new System.Drawing.Point(181, 68);
+            this.CmBoxCinsiyet.Location = new System.Drawing.Point(185, 94);
             this.CmBoxCinsiyet.Name = "CmBoxCinsiyet";
             this.CmBoxCinsiyet.Size = new System.Drawing.Size(200, 21);
             this.CmBoxCinsiyet.TabIndex = 62;
@@ -214,7 +215,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label10.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label10.Location = new System.Drawing.Point(90, 65);
+            this.label10.Location = new System.Drawing.Point(94, 91);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(85, 21);
             this.label10.TabIndex = 61;
@@ -223,7 +224,7 @@
             // TxtUcret
             // 
             this.TxtUcret.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtUcret.Location = new System.Drawing.Point(565, 123);
+            this.TxtUcret.Location = new System.Drawing.Point(574, 148);
             this.TxtUcret.Name = "TxtUcret";
             this.TxtUcret.Size = new System.Drawing.Size(200, 23);
             this.TxtUcret.TabIndex = 60;
@@ -234,7 +235,7 @@
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label9.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label9.Location = new System.Drawing.Point(494, 122);
+            this.label9.Location = new System.Drawing.Point(503, 147);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(65, 21);
             this.label9.TabIndex = 59;
@@ -243,7 +244,7 @@
             // DtpCikisTarihi
             // 
             this.DtpCikisTarihi.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DtpCikisTarihi.Location = new System.Drawing.Point(565, 94);
+            this.DtpCikisTarihi.Location = new System.Drawing.Point(574, 119);
             this.DtpCikisTarihi.Name = "DtpCikisTarihi";
             this.DtpCikisTarihi.Size = new System.Drawing.Size(200, 23);
             this.DtpCikisTarihi.TabIndex = 57;
@@ -251,7 +252,7 @@
             // DtpGirisTarihi
             // 
             this.DtpGirisTarihi.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DtpGirisTarihi.Location = new System.Drawing.Point(565, 65);
+            this.DtpGirisTarihi.Location = new System.Drawing.Point(574, 90);
             this.DtpGirisTarihi.Name = "DtpGirisTarihi";
             this.DtpGirisTarihi.Size = new System.Drawing.Size(200, 23);
             this.DtpGirisTarihi.TabIndex = 56;
@@ -259,7 +260,7 @@
             // MskTxtTelefon
             // 
             this.MskTxtTelefon.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MskTxtTelefon.Location = new System.Drawing.Point(181, 96);
+            this.MskTxtTelefon.Location = new System.Drawing.Point(185, 122);
             this.MskTxtTelefon.Mask = "(999) 000-0000";
             this.MskTxtTelefon.Name = "MskTxtTelefon";
             this.MskTxtTelefon.Size = new System.Drawing.Size(200, 23);
@@ -268,7 +269,7 @@
             // TxtOdaNo
             // 
             this.TxtOdaNo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtOdaNo.Location = new System.Drawing.Point(565, 36);
+            this.TxtOdaNo.Location = new System.Drawing.Point(574, 61);
             this.TxtOdaNo.Name = "TxtOdaNo";
             this.TxtOdaNo.Size = new System.Drawing.Size(200, 23);
             this.TxtOdaNo.TabIndex = 54;
@@ -276,7 +277,7 @@
             // TxtTcNo
             // 
             this.TxtTcNo.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtTcNo.Location = new System.Drawing.Point(565, 10);
+            this.TxtTcNo.Location = new System.Drawing.Point(574, 35);
             this.TxtTcNo.MaxLength = 11;
             this.TxtTcNo.Name = "TxtTcNo";
             this.TxtTcNo.Size = new System.Drawing.Size(200, 23);
@@ -285,7 +286,7 @@
             // TxtMail
             // 
             this.TxtMail.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtMail.Location = new System.Drawing.Point(181, 122);
+            this.TxtMail.Location = new System.Drawing.Point(185, 148);
             this.TxtMail.Name = "TxtMail";
             this.TxtMail.Size = new System.Drawing.Size(200, 23);
             this.TxtMail.TabIndex = 52;
@@ -293,7 +294,7 @@
             // TxtSoyadi
             // 
             this.TxtSoyadi.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtSoyadi.Location = new System.Drawing.Point(181, 36);
+            this.TxtSoyadi.Location = new System.Drawing.Point(185, 62);
             this.TxtSoyadi.Name = "TxtSoyadi";
             this.TxtSoyadi.Size = new System.Drawing.Size(200, 23);
             this.TxtSoyadi.TabIndex = 51;
@@ -301,7 +302,7 @@
             // TxtAdi
             // 
             this.TxtAdi.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtAdi.Location = new System.Drawing.Point(181, 10);
+            this.TxtAdi.Location = new System.Drawing.Point(185, 36);
             this.TxtAdi.Name = "TxtAdi";
             this.TxtAdi.Size = new System.Drawing.Size(200, 23);
             this.TxtAdi.TabIndex = 50;
@@ -312,7 +313,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label8.Location = new System.Drawing.Point(449, 95);
+            this.label8.Location = new System.Drawing.Point(458, 120);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(110, 21);
             this.label8.TabIndex = 49;
@@ -324,7 +325,7 @@
             this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label7.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label7.Location = new System.Drawing.Point(449, 67);
+            this.label7.Location = new System.Drawing.Point(458, 92);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(112, 21);
             this.label7.TabIndex = 48;
@@ -336,7 +337,7 @@
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label6.Location = new System.Drawing.Point(415, 38);
+            this.label6.Location = new System.Drawing.Point(424, 63);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(144, 21);
             this.label6.TabIndex = 47;
@@ -348,7 +349,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label5.Location = new System.Drawing.Point(432, 12);
+            this.label5.Location = new System.Drawing.Point(441, 37);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(127, 21);
             this.label5.TabIndex = 46;
@@ -360,7 +361,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label4.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label4.Location = new System.Drawing.Point(121, 125);
+            this.label4.Location = new System.Drawing.Point(125, 151);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(54, 21);
             this.label4.TabIndex = 45;
@@ -372,7 +373,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label3.Location = new System.Drawing.Point(3, 98);
+            this.label3.Location = new System.Drawing.Point(7, 124);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(172, 21);
             this.label3.TabIndex = 44;
@@ -384,7 +385,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label2.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label2.Location = new System.Drawing.Point(98, 35);
+            this.label2.Location = new System.Drawing.Point(102, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(77, 21);
             this.label2.TabIndex = 43;
@@ -396,7 +397,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(131, 12);
+            this.label1.Location = new System.Drawing.Point(135, 38);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(44, 21);
             this.label1.TabIndex = 42;
@@ -470,6 +471,7 @@
             this.Controls.Add(this.BtnGuncelle);
             this.Controls.Add(this.BtnKayitList);
             this.Controls.Add(this.listView1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmMusteriler";

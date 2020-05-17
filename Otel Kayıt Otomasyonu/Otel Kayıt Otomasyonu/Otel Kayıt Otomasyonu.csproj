@@ -58,6 +58,12 @@
     <Compile Include="FrmAnaForm.Designer.cs">
       <DependentUpon>FrmAnaForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmGelirGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmGelirGider.Designer.cs">
+      <DependentUpon>FrmGelirGider.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMusteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="FrmOdalar.Designer.cs">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAylikHarcama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAylikHarcama.Designer.cs">
+      <DependentUpon>FrmAylikHarcama.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmYeniMusteri.cs">
       <SubType>Form</SubType>
@@ -84,29 +96,35 @@
     <EmbeddedResource Include="FrmAnaForm.resx">
       <DependentUpon>FrmAnaForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmGelirGider.resx">
+      <DependentUpon>FrmGelirGider.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMusteriler.resx">
       <DependentUpon>FrmMusteriler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOdalar.resx">
       <DependentUpon>FrmOdalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmAylikHarcama.resx">
+      <DependentUpon>FrmAylikHarcama.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmYeniMusteri.resx">
       <DependentUpon>FrmYeniMusteri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -126,10 +144,16 @@
     <None Include="Resources\admin icon1.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\admin-icon.ico" />
+    <None Include="Resources\pngfuel.com.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pngfuel.com.png" />
+    <None Include="Resources\arkaplan1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arkaplan2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfuel.com1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
