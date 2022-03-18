@@ -1,2 +1,2 @@
-# b191200371_Proje
+# HotelOtomation
  Otel Kayıt Otomasyonu
