@@ -1,2 +1,2 @@
-# HotelOtomation
+# HotelAutomation
  Otel Kayıt Otomasyonu
